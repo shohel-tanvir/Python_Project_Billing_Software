@@ -373,10 +373,10 @@ class bill_app:
         self.cold_drink_tax.set("")
         self.welcome_bill()
 
-def exit(self):
-    op=messagebox.askyesno("Exit","Do you want to exit?")
-    if op>0:
-        self.root.destroy()
+    def exit(self):
+        op=messagebox.askyesno("Exit","Do you want to exit?")
+        if op>0:
+            self.root.destroy()
 
 root=Tk()
 obj=bill_app(root)
