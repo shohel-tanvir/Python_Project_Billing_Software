@@ -14,7 +14,7 @@ class bill_app:
         self.root=root
         self.root.geometry("1275x740+0+0")
         self.root.title("Billing Software")
-        bg_color="#074463"
+        bg_color="#3dcc57"
         title=Label(self.root,text="Billing Software",bd=12,relief=GROOVE,bg=bg_color,fg="white",font=("times new roman",30,"bold"),pady=2).pack(fill=X)
         #=====variable==========
         #======customer variable======
